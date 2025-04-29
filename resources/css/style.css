@@ -12,24 +12,18 @@
         url(/resources/fonts/Figtree/static/Figtree-Medium.ttf) format('truetype'),
 }
 
-#container {
-    margin: 0 auto;
-}
-
 body {
     font-family: "SiteMainFont", sans-serif;
     font-weight: regular;
     letter-spacing: 0.5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
     height: 100%;
     border-radius: 10px;
     background-color: #000000;
+    margin: 0 auto;
+    padding-left: 50px; 
+    padding-right: 50px; 
+    padding-top: 20px;
     max-width: 1000px;
-    max-height: 1000px;
-    min-width: 100px;
-    min-height: 100px;
 }
 
 p {
@@ -46,7 +40,7 @@ p {
 }
 
 .text-with-background {
-    background-image: url(/resources/images/Background_Image.png);
+    background-image: url('../images/image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,9 +49,7 @@ p {
 }
 
 table {
-    border-collapse: collapse;
     width: 100%;
-    margin: 0 auto;
     font-size: 16px;
     color: whitesmoke;
     margin-top: 11px;
@@ -86,7 +78,7 @@ th {
 td {
     padding-top: 10px;
     padding-left: 10px;
-    text-align: justify;
+    text-align: left;
     color: whitesmoke;
 }
 
