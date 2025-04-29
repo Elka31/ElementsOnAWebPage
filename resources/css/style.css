@@ -1,0 +1,103 @@
+@font-face {
+    font-family:"SiteMainFont";
+    src:
+        url(/resources/fonts/Figtree/static/Figtree-Regular.ttf) format('truetype'),
+        url(/resources/fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf) format('truetype'),
+        url(/resources/fonts/Figtree/Figtree-VariableFont_wght.ttf) format('truetype'),
+        url(/resources/fonts/Figtree/static/Figtree-Black.ttf) format('truetype'),
+        url(/resources/fonts/Figtree/static/Figtree-BlackItalic.ttf) format('truetype'),
+        url(/resources/fonts/Figtree/static/Figtree-Bold.ttf) format('truetype'),
+        url(/resources/fonts/Figtree/static/Figtree-BoldItalic.ttf) format('truetype'),
+        url(/resources/fonts/Figtree/static/Figtree-Light.ttf) format('truetype'),
+        url(/resources/fonts/Figtree/static/Figtree-Medium.ttf) format('truetype'),
+}
+
+#container {
+    margin: 0 auto;
+}
+
+body {
+    font-family: "SiteMainFont", sans-serif;
+    font-weight: regular;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #000000;
+    max-width: 1000px;
+    max-height: 1000px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.text-with-background {
+    background-image: url(/resources/images/Background_Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: whitesmoke;
+    margin-top: 11px;
+}
+
+caption {
+    margin-top: 10px;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-decoration-color: whitesmoke;
+}
+
+th {
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    color: #a0988e;
+}
+
+td {
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+#footer p {
+    color: gray;
+    font-style: italic;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 10px;;
+}

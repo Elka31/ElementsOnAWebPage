@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements on a web page</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<div>
+<body id="container">
+    <div class="text-with-background">
+        <h1 id="title">Elements on a Web Page</h1>
+    </div>    
+    <table>
+        <caption id="caption1">Positioning of Elements on a Web Page (definitons)</caption>
+            <thead>
+                <tr>
+                    <th></th> 
+                    <!-- This is empty intentionally -->
+                    <th>Description</th>
+                    <th>Use case</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Relative</th>
+                    <td>Positioned relative to its normal flow</td>
+                    <td>Move element slightly without removing it from flow</td>
+                    <td>top: 10px shifts from normal spot</td>
+                </tr>
+
+                <tr>
+                    <th>Absolute</th>
+                    <td>Positioned relative to nearest positioned ancestor</td>
+                    <td>Precisely place in container</td>
+                    <td>top: 0 inside parent</td>
+                </tr>
+
+                <tr>
+                    <th>Fixed</th>
+                    <td>Positioned relative to the viewport</td>
+                    <td>Stick element (e.g., nav bar) to viewport</td>
+                    <td>top: 0 stays on screen when scrolling</td>
+                </tr>
+
+                <tr>
+                    <th>Sticky</th>
+                    <td>Switches from relative to fixed on scroll</td>
+                    <td>Header that sticks at top while scrolling</td>
+                    <td>Header sticks once it reaches top of view</td>
+                </tr>
+            </tbody>  
+    </table>
+    <footer id="footer">
+        <p>Elka31™</p>
+    </footer>
+</body>
+</html>
+</div>
